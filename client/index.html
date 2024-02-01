@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>API</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <section
+            class="bg-slate-900 h-[800rem] text-white flex flex-col items-center"
+        >
+            <h1
+                class="text-4xl text-center text-white py-6 font-bold uppercase mb-8"
+            >
+                Modulo de reportes
+            </h1>
+            <div class="flex flex-wrap gap-x-4">
+                <a
+                    href="#modulo-1"
+                    class="bg-blue-500 text-white px-2 py-1 rounded-md"
+                    >Reporte de problemas de producto</a
+                >
+                <a
+                    href="#modulo-2"
+                    class="bg-blue-500 text-white px-2 py-1 rounded-md"
+                    >Reporte de respuestas de la empresa</a
+                >
+                <a
+                    href="#modulo-3"
+                    class="bg-blue-500 text-white px-2 py-1 rounded-md"
+                    >Problemas disputados por estado</a
+                >
+                <a
+                    href="#modulo-4"
+                    class="bg-blue-500 text-white px-2 py-1 rounded-md"
+                    >Quejas por fecha</a
+                >
+            </div>
+            <h2 class="font-bold py-6 text-2xl mt-14">
+                Reporte de Problemas de Producto
+            </h2>
+            <div id="modulo-1" class="h-[600px] overflow-y-auto py-8"></div>
+            <h2 class="font-bold py-6 text-2xl mt-14">
+                Reporte de Respuestas de la Empresa
+            </h2>
+            <div id="modulo-2" class="h-[600px] overflow-y-auto py-8"></div>
+            <h2 class="font-bold py-6 text-2xl mt-14">
+                Problemas Disputados por Estado
+            </h2>
+            <div id="modulo-3" class="h-[600px] overflow-y-auto py-8"></div>
+            <h2 class="font-bold py-6 text-2xl mt-14">Quejas por Fecha</h2>
+            <div id="modulo-4" class="h-[600px] overflow-y-auto py-8"></div>
+        </section>
+        <script src="./app.js"></script>
+    </body>
+</html>
